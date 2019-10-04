@@ -1,0 +1,18 @@
+{
+    "name": "prophecy/router",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Aryan Ahmed Anik",
+            "email": "thearyanahmed@gmail.com"
+        }
+    ],
+    "autoload" : {
+        "psr-4" : {
+            "Prophecy\\Router\\" : "src/"
+        }
+    },
+    "require": {
+      "ext-json": "*"
+    }
+}
